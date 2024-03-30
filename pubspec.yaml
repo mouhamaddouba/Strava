@@ -1,0 +1,91 @@
+name: steps_tracker
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  ## APP Packages ##
+
+  # localizations
+  intl: ^0.18.1
+  cron: ^0.6.0
+  flutter_localizations:
+    sdk: flutter
+
+  # Steps Counter
+  pedometer: ^4.0.1
+
+  # firebase
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+
+  # injection
+  get_it: ^7.6.7
+  injectable: ^2.3.3
+
+  # State Management
+  provider: ^6.1.2
+  flutter_bloc: ^8.1.4
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # Navbar
+  persistent_bottom_nav_bar_v2: ^4.2.8
+
+  # Images
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+
+  # Dart
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.1
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  logging: ^1.2.0
+
+  # Guage
+  syncfusion_flutter_gauges: ^24.2.9
+
+  # Permission
+  permission_handler: ^11.3.0
+
+  # Responsive Design
+  responsive_framework: ^1.4.0
+
+  # Lottie
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  # App Developer ##
+  build_runner: ^2.4.8
+  injectable_generator: ^2.4.2
+  change_app_package_name: ^1.1.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application:
+  assets:
+    - assets/images/
+    - assets/jsons/
+    - assets/svg/
+
+
